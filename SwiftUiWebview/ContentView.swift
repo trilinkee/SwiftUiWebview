@@ -11,14 +11,7 @@ struct ContentView: View {
     @State private var showWebView = false
     
     var body: some View {
-        Button {
-            showWebView.toggle()
-        } label: {
-            Text("AppCoda")
-        }
-        .sheet(isPresented: $showWebView) {
-            WebView(url: URL(string: "https://www.appcoda.com")!)
-        }
+        CustomWebView(urlToLoad: "https://www.bing.com/")
     }
 }
 

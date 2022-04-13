@@ -11,7 +11,7 @@
 		00BA5A07280641120019FB4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BA5A06280641120019FB4C /* ContentView.swift */; };
 		00BA5A09280641140019FB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BA5A08280641140019FB4C /* Assets.xcassets */; };
 		00BA5A0C280641140019FB4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BA5A0B280641140019FB4C /* Preview Assets.xcassets */; };
-		00BA5A1328068A670019FB4C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BA5A1228068A670019FB4C /* WebView.swift */; };
+		00BA5A3B28072B030019FB4C /* CustomWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BA5A3A28072B030019FB4C /* CustomWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		00BA5A06280641120019FB4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00BA5A08280641140019FB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00BA5A0B280641140019FB4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		00BA5A1228068A670019FB4C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		00BA5A3A28072B030019FB4C /* CustomWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				00BA5A04280641120019FB4C /* SwiftUiWebviewApp.swift */,
 				00BA5A06280641120019FB4C /* ContentView.swift */,
-				00BA5A1228068A670019FB4C /* WebView.swift */,
+				00BA5A3A28072B030019FB4C /* CustomWebView.swift */,
 				00BA5A08280641140019FB4C /* Assets.xcassets */,
 				00BA5A0A280641140019FB4C /* Preview Content */,
 			);
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00BA5A1328068A670019FB4C /* WebView.swift in Sources */,
 				00BA5A07280641120019FB4C /* ContentView.swift in Sources */,
 				00BA5A05280641120019FB4C /* SwiftUiWebviewApp.swift in Sources */,
+				00BA5A3B28072B030019FB4C /* CustomWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
