@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showWebView = false
+    
     var body: some View {
-        Link(destination: URL(string: "https://www.google.com")!, label: {
-            Text("Google")
-                .foregroundColor(.orange)
-        })
+        Button {
+            showWebView.toggle()
+        } label: {
+            Text("AppCoda")
+        }
+        .sheet(isPresented: $showWebView) {
+            WebView(url: URL(string: "https://www.appcoda.com")!)
+        }
     }
 }
 
